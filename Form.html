@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Pink</title>
+</head>
+<body class="page_body">
+	<header  class="page-header">
+		<a class="page-header__logo">
+			<img src="ihttps://via.placeholder.com/150x150" alt="Pink»">
+    	</a>	
+		<nav class="main-nav">
+			<button class="main-nav__toggle" type="button">
+        		<span class="visually-hidden">Открыть меню</span>
+      		</button>
+      		<div class="main-nav__wrapper">
+				<ul class="main-nav__list site-list">
+					<li class="site-list__item">
+						<a href="main.html">
+            				Главная
+         			 	</a>
+        			</li>
+        			<li class="site-list__item">
+          				<a href="photo.html">
+            				Фотографии
+         			 	</a>
+        			</li>
+        			<li class="site-list__item  site-list__item--active">
+          				<a href="form.html">
+            				Конкурс
+          				</a>
+        			</li>
+        			<li class="site-list__item">
+          				<a href="#">
+            				HTML Academy
+          				</a>
+        			</li>
+				</ul>
+			</div>			
+		</nav>
+	</header>
+
+	<main class="page-main">
+		<h1 class="contest_title">Конкурс на самое безбашенное<br>путешествие с Пинк</h1>
+		<form action="#" method="post" class="travelling-form">
+			<p class="steps_description">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на<br>вашу бонусную карту! Пожалуйста заполните форму ниже:</p>
+			<fieldset class="travelling-form_name">
+				<label>
+					ФАМИЛИЯ: <input type="text" name="secondname" value =  "Укажите фамилию *" class="travelling-form_name__secondname" required>
+				</label> 
+				<label>
+					ИМЯ: <input type="text" name="firstname" value =  "Введите ваше имя *" class="travelling-form_name__firstname" required>
+				</label> 
+				<label>
+					 ОТЧЕСТВО: <input type="text" name="lasttname" value =  "Ну и отчество тоже" class="travelling-form_name__lastname">
+				</label>
+			</fieldset>
+			<fieldset class="travelling-application">
+				<p class="application-qwestion">с каим приложением путешествовали?</p>
+				<label>
+					<input type="radio" name="application" value="iOS" checked>Pink для iOS
+				</label>
+				<label>
+					<input type="radio" name="application" value="Android">Pink на Android
+				</label>
+				<label>
+					<input type="radio" name="application" value="Windows Phone">Windows Phone
+				</label>
+			</fieldset>
+			<fieldset class="contacts">
+				<p class="contact-header">контактная информация</p>
+				<label>
+					<div class="contact-container">
+						<input type="tel" name="telephone" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" value="номер, пожалуйста">
+						<img src="">
+					</div> номер телефона
+				</label>
+				<label>
+					<div class="contact-container">
+						<input type="email" name="email" value="введите почту*" required>
+						<img src="">
+					</div> адрес почты
+				</label>
+			</fieldset>
+			<fieldset class="travelling-records">
+				<p records-qwestion>ваши безбашенные достижения в путешествии</p>
+				<label>
+					<input type="checkbox" name="shark" checked>Сделал селфи с акулой
+				</label>
+				<label>
+					<input type="checkbox" name="beach" checked>Обгорел на пляже
+				</label>
+				<label>
+					<input type="checkbox" name="norris">Видел Чака Норриса
+				</label>
+				<label>
+					<input type="checkbox" name="souvenir">Накупил сувениров
+				</label>
+				<label>
+					<input type="checkbox" name="tower" checked>Удержал башню
+				</label>
+				<label>
+					<input type="checkbox" name="destroy">Разгромил отель
+				</label>
+			</fieldset>
+			<fieldset class="trravelling-emotions">
+				<p class="emotions-header">опишите свои эмоции</p>
+				<textarea class="emotions-description" rows="5" cols="100">Можно прям в красках, не стесняясь в выражениях</textarea>
+			</fieldset>
+			<p class="form-exlanation">*- обязательные для заполнения поля</p>
+			<input  type="submit" value="отправить форму" class="form-button">
+		</form>		
+	</main>
+	<footer class="page-footer">
+		<div class="page-footer__contacts contacts">
+			<h2 class="contacts-title">Остались вопросы?<br>Свяжитесь с нами!</h2>
+			<p class="contacts__text">
+        		Звоните:<br>
+        		<a class="contacts__phone" href="tel:+78125556666">
+          			<span class="contacts__phone-mobile">Тел.:</span> +7 (812) 555-66-66
+        		</a>
+      		</p>
+      		<p class="contacts__text">
+        		Приезжайте в гости:<br>
+        		<a class="contacts__adress" href="">
+          			<span class="contacts__adress"></span>ул. Большая<br>Конюшенная, 19/8
+        		</a>
+      		</p>
+      		<p class="contacts__text">
+        		Пишите:<br>
+        		<a class="contacts__e-mail" href="mail@htmlacademy.ru">
+          			<span class="contacts__e-mail"></span>mail@htmlacademy.ru
+        		</a>
+      		</p>
+		</div>
+		<a class="page-footer__logo">
+			<img src="ihttps://via.placeholder.com/150x150" alt="Pink»">
+    	</a>	
+		<div class="page-footer__social social">
+      		<ul class="social__list">
+        		<li class="social__item">
+          			<a class="social__link social__link--twitter" href=""><img src="" alt="Мы в твиттере"></a>
+        		</li>
+        		<li class="social__item">
+          			<a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy"><img src="" alt="Мы в Фейсбуке"></a>
+        		</li>
+        		<li class="social__item">
+          			<a class="social__link social__link--youtube" href="https://www.youtube.com/htmlacademy"><img src="" alt="Мы в Инстаграме"></a>
+        		</li>
+      		</ul>
+    	</div>
+    	<div class="page-footer_copyright copyright">
+      		<b class="copyright_text">Разработано:</b>
+      		<a class="copyright_link" href="https://htmlacademy.ru/intensive/adaptive"><img src="" alt="HTML Academy"</a>
+    	</div>> 
+	</footer>
+	
+</body>
